@@ -1,0 +1,54 @@
+Project Name :
+------------
+	
+	An Artificiality Intelligent Video Player using Face Detection and Recognition
+
+
+INTRODUCTION
+------------
+
+	The objective of this project is to make an application which will control by the face and eyes of the person like :
+		* Pause video when person close his both eyes.
+		* Play video when person’s eyes are open.
+		* Stop video when there is no person in front of the camera.
+		* Resume video when person open his eye.
+		* Next video when previous video is finished.
+		* Resume video from previous position, if person wants to resume his previous video.
+		* Close the application when person is not came in front of camera for a long interval.
+
+
+REQUIREMENTS
+------------
+	
+	* Python3 is required to run the files.
+	* Following library are needed to install in the machine
+		-> opencv-contrib-python
+		-> python-vlc
+	* vlc must be run using terminal/command line.
+	* A folder named playlist which consist of only videos.
+	* A camera attached to the machine.
+
+
+HOW TO DOWNLOAD REQUIRED FILE
+-----------------------------
+	* sudo apt-get install python3
+	* sudo apt-get install vlc
+	* sudo pip3 install opencv-contrib-python
+	* sudo pip3 install python-vlc
+
+
+MAIN SOURCE FILE
+----------------
+	ai_video_player.py
+
+
+HOW TO EXECUTE APPLICATION
+--------------------------
+
+	python3 ai_video_player.py
+
+
+NOTE
+----
+	* Before Run application please insert some video in the playlist folder.
+	* We try our application only on Linux, so we have no idea about windows.
